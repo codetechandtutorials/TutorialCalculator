@@ -2,7 +2,7 @@
 #include "Calculator/Calculator.h"
 #include "Helpers/helpers.h"
 
-// episode 11: makefiles
+// episode 17: classes - moving forward
 int main()
 {
     Calculator calc;
@@ -12,5 +12,9 @@ int main()
         calc.run();
         isRunning = checkIfUserWantsToContinue();
     }
+
+
+    std::cout << &calc;
+
     return 0;
 }
